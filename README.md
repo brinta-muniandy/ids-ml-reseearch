@@ -18,10 +18,11 @@ The dataset is not included in this repo. You can download it from the [official
 
 ```bash
 .
-├── data/                   # Place dataset files here (not included)
+├── data/
+│   ├── raw/                     # Instructions or placeholder for raw .csv files
+│   └── processed/              # Cleaned + transformed file like `cleaned_features.csv`
 ├── notebooks/              # Google Colab notebook with research steps
 ├── src/                    # Modular Python scripts for reuse
-├── results/                # Output files (e.g., cleaned CSV)
 ├── requirements.txt        # All required packages
 └── README.md               # You are here!
 ```
@@ -67,7 +68,7 @@ Confusion matrices and classification reports are generated for each.
 
 ---
 
-## 📈 Sample Results
+## 📈 Sample Results (TBD)
 
 Each classifier's results are visualized using heatmaps and metrics like:
 
